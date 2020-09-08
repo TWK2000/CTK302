@@ -4,8 +4,8 @@ var f1;
 function setup() {
   createCanvas(800, 800);
 
-  f = loadFont("assets/Groovy.ttf");
-  f1 = loadFont("assets/sketch3d.ttf");
+  f = loadFont("assets/Butterfly.ttf");
+  f1 = loadFont("assets/SweetBuddy.ttf");
 
   textAlign(CENTER);
 }
@@ -15,7 +15,7 @@ function draw() {
 
 fill('white')
   textFont(f);
-  textSize(60);
+  textSize(20);
   text("Knowledge Is Strength", width / 2, height / 2);
 
  fill('red')
